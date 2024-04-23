@@ -1,21 +1,31 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+    background-color: #FF5757;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    color: #0A5247;
 }
-
+a{
+    text-decoration: none;
+    color: #0A5247;
+}
 .container {
-    background-color: #fff;
+    background-color: blanchedalmond;
     padding: 20px;
-    border-radius: 5px;
+    height: 400px;
+    width: 450px;
+    border-radius: 10px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
 
 .form-group {
     margin-bottom: 15px;
+    width: 400px;
 }
 
 label {
@@ -33,7 +43,7 @@ input[type="password"] {
 
 button {
     padding: 10px 15px;
-    background-color: #007bff;
+    background-color:  #FFC643 ;
     color: #fff;
     border: none;
     border-radius: 5px;
