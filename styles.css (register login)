@@ -24,6 +24,16 @@ a{
     border-radius: 10px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
+.container1 {
+    background-color: blanchedalmond;
+    padding: 20px;
+    height: 470px;
+    width: 450px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
 img{
     margin-left: 190px;
     margin-top: 390px;
@@ -61,5 +71,5 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #0056b3;
 }
