@@ -4,30 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title> 
-    <link rel="stylesheet" href="style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
-    <script src="logscript.js"></script>
+    <link rel="stylesheet" href="logstyles.css">
 </head>
 <body>
     <div class="container">
         <h1>Login</h1>
         <form id="login-form" method="post" action="login.php">
             <div class="form-group">
-                <label for="username">Username</label>
+                <label for="username">Username/E-mail</label>
                 <input type="text" id="username" name="username" required>
-            </div>
-            <div class="form-group">
                 <label for="password">Password</label>
                 <input type="password" id="password" name="password" required>
-            </div>
-            <div class="form-group">
+                <br><br>
                 <button type="submit">Login</button>
             </div>
         </form>
         <p>Don't have an account? <a href="register.html">Register here</a></p>
     </div>
-    <div class="gif">
-        <img src="cart.gif" height="350px" width="350px" >
-    </div>
+    <img src="cart.gif" height="400px" width="400px">
+    <!-- <script src="script.js"></script> -->
 </body>
 </html>
